@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assests/icon/favicon.png" sizes="16x16">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>MindLab</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- logo -->
+        <div class="logo__contenedor">
+            <a href="#"><h1 class="logo logo__contenedor--mindLab">MindLab</h1></a>
+            <a href="#"><h2 class="logo logo__contenedor--dot">.</h2></a>
+        </div>
+        <!-- nav bar - enlances -->
+        <nav class="navbar">
+            <ul class="lista_desordenada">
+                <li class="lista_item"><a class="enlaceNavbar enlaceNavbar--home" href="#">Inicio</a></li>
+                <li class="lista_item"><a class="enlaceNavbar" href="pages/servicios.html">Servicios</a></li>
+                <li class="lista_item"><a class="enlaceNavbar enlaceNavbar" href="pages/reco.html">Recomendaciones</a></li>
+                <li class="lista_item"><a class="enlaceNavbar" href="pages/arte.html">Arte</a></li>
+                <li class="lista_item"><a class="enlaceNavbar" href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin del header -->
+
+    <!-- main -->
+    <main>
+
+        <!-- seccion banner -->
+        <section class="banner">
+            <div class="banner__img">
+                <div class="banner__text">
+                    <h2 class="banner__title" id="nosotros">Revista científica: MindLab</h2>
+                    <p class="banner__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde explicabo ad eius eligendi, commodi laboriosam, laborum fugiat voluptatum dolorum debitis exercitationem atque officia temporibus cupiditate. Non dolor mollitia repudiandae ad.</p>
+                </div>
+            </div>
+            <div class="avatar">
+                <h3 class="avatar__title">Be</h3>
+                <h3 class="avatar__title avatar__title--color">Focus!</h3>
+            </div>
+        </section>
+        <!-- fin sección banner -->
+
+        <!-- sección servicios -->
+        <section class="servicios" id="servicios">
+            <!-- servicio 1 -->
+            <div class="servicio">
+                <span class="material-symbols-outlined">
+                    science
+                </span>
+                <h3 class="servicio-title">Divulgación científica</h3>
+                <p class="servicio-text">Cada una de las publicaciones de la revista se obtiene tras un proceso de investigación con bases científicas y fuentes citadas.</p>
+            </div>
+            <!-- servicio 2 -->
+            <div class="servicio">
+                <span class="material-symbols-outlined">
+                    psychology
+                </span>
+                <h3 class="servicio-title">Psicología aplicada</h3>
+                <p class="servicio-text">Los avances de los distintos enfóques psicológicos explicados, relacionados y llevados a la práctica; para una experiencia completa sobre estos conocimientos.</p>
+            </div>
+            <!-- servicio 3 -->
+            <div class="servicio">
+                <span class="material-symbols-outlined">
+                    self_improvement
+                </span>
+                <h3 class="servicio-title">Auto-realización</h3>
+                <p class="servicio-text">Técnica explicada paso a paso para desarrollar un reflejo ancestral del ser humano que permite la purificación interior.</p>
+            </div>
+        </section>
+        <!-- fin sección servicios -->
+
+        <!-- sección publicaciones -->
+        <section class="publicaciones">
+            <!--titulo publicaciones-->
+            <div>
+                <h3 class="public-title">Portadas de nuestras ultimas ediciones</h3>
+            </div>
+            <!-- grilla -->
+            <div class="grilla">
+                <div class="img img1"></div>
+                <div class="img img2"></div>
+                <div class="img img3"></div>
+                <div class="img img4"></div>
+                <div class="img img5"></div>
+                <div class="img img6"></div>
+            </div>
+        </section>
+        <!--  fin sección publicaciones -->
+
+        <!-- sección "Rueda" -->
+        <section class="rueda">
+            <span class="material-symbols-outlined flechas">
+                arrow_back_ios
+                </span>
+            <div class="rueda-item">
+                <span class="material-symbols-outlined rueda-icon">
+                    event_note
+                    </span>
+                <h3 class="rueda-title">Publicaciones</h3>
+                <p class="rueda-text">3 libros - since 2020 -</p>
+                <p class="rueda-text">10 revistas - since 2020 -</p>
+            </div>
+            <div class="rueda-item">
+                <span class="material-symbols-outlined rueda-icon rueda-icon-colab">
+                    communication
+                    </span>
+                <h3 class="rueda-title">Colaboraciones</h3>
+                <p class="rueda-text">18 colaboraciones para universidades</p>
+                <p class="rueda-text">+10 colaboraciones comunidad científica</p>
+            </div>
+            <div class="rueda-item">
+                <span class="material-symbols-outlined rueda-icon">
+                    military_tech
+                    </span>
+                <h3 class="rueda-title">Premios obtenidos</h3>
+                <p class="rueda-text">2 premios "@ de Oro" a la revista del año</p>
+                <p class="rueda-text">Premio "Hugo" a la mejor revista profesional</p>
+                <p class="rueda-text">Premio "Jóvenes Investigadores/as" revista de divulgación científica</p>
+            </div>
+            <span class="material-symbols-outlined flechas">
+                arrow_forward_ios
+                </span>
+        </section>
+        <!-- fin sección rueda -->
+
+        <!-- sección artículos relacionados -->
+        <section class="relacionados">
+            <!-- titulo art. rel. -->
+            <div>
+                <h3 class="rel-title">Artículos relacionados</h3>
+            </div>
+            <!-- 2da grilla -->
+            <div class="rel-grilla">
+                <div class="rel_card rel_card1">
+                    <h3 class="card__title">Libre albedrio, una ilusión</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda commodi voluptate. Distinctio dolorem consectetur, nulla deleniti mollitia, hic quidem neque omnis ratione commodi.</p>
+                </div>
+                <div class="rel_card rel_card2">
+                    <h3 class="card__title">Esclavizados y alienados</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda commodi voluptate. Distinctio dolorem consectetur, nulla deleniti mollitia, hic quidem neque omnis ratione commodi.</p>
+                </div>
+                <div class="rel_card rel_card3">
+                    <h3 class="card__title">Dirigirse a la otra orilla</h3>
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda commodi voluptate. Distinctio dolorem consectetur, nulla deleniti mollitia, hic quidem neque omnis ratione commodi.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- fin sección art. relacionados -->
+    <!-- fin del main -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <!-- descripcion final -->
+        <div class="footer__description">
+            <h4 class="footer__title">Espacio Integral</h4>
+            <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fuga maxime pariatur. Nulla deleniti mollitia, hic quidem neque omnis ratione commodi.</p>
+            <p class="footer__text footer__text--copy">© Todos los derechos reservados</p>
+        </div>
+
+        <!-- iconos contacto -->
+        <div class="footer__contacto">
+            <span class="material-symbols-outlined icon__contacto">
+                forward_to_inbox
+            </span>
+            <a class="contacto__enlace" href="pages/contacto.html">Contáctanos</a>
+        </div>
+
+        <!-- NewsLetter -->
+        <div class="footer__newsletter">
+            <h4 class="footer__title">NewsLetter & Accounts</h4>
+            <div>
+                <span class="material-symbols-outlined footer__newsletter--icon">
+                    forum
+                    </span>
+                <span class="material-symbols-outlined footer__newsletter--icon">
+                    wifi_calling_3
+                    </span>
+                <span class="material-symbols-outlined footer__newsletter--icon">
+                    local_post_office
+                    </span>
+            </div>
+        </div>
+    </footer>
+    <!-- fin footer -->
+
+</body>
+</html>
